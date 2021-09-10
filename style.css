@@ -2,7 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-weight: 700;
+}
+
+body {
+    font-family: bold, sans-serif;
+    font-weight: bold;
 }
 
 .clearfix::after {
@@ -118,7 +122,7 @@
 /* header */
 
 #site_header {
-    background-color: #3161e0;
+    background-color: #255ee9;
 }
 
 .nav {
@@ -160,8 +164,57 @@ nav a {
 
 /* main */
 
+.jumbo {
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    height: 550px;
+}
+
 .main_title_desccription {
-    margin: auto;
+    color: white;
+    width: 35%;
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1, p {
+    padding: 10px 0;
+    width: 100%;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    word-wrap: break-word;
+    padding-bottom: 2rem;
+    line-height: 30px;
+}
+
+.button-1 {
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 0;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    color: #494c4f;
+    margin-right: 1rem;
+}
+
+.button-2 {
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 0;
+    background-color: black;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
 }
 
 /* promo */
