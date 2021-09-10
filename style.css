@@ -9,3 +9,190 @@
     display: table;
     clear: both;
 }
+
+.background .container {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+/* DEBUG */
+
+.debug .background {
+    background-color: blue;
+}
+
+.debug nav {
+    height: 70px;
+    background-color: green;
+}
+
+.debug .logo {
+    height: 70px;
+    background-color: tomato;
+}
+
+.debug .link {
+    height: 70px;
+    background-color: black;
+}
+
+.debug .accedi {
+    height: 70px;
+    background-color: tomato;
+}
+
+.debug .main_title_desccription {
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.debug .promo {
+    height: 400px;
+    background-color: gray;
+}
+
+.debug .promo_img {
+    background-color: greenyellow;
+}
+
+.debug .promo_text {
+    background-color: hotpink;
+    height: 400px;
+}
+
+.debug .banner {
+    height: 500px;
+    background-color: red;
+}
+
+.debug .banner_text {
+    height: 200px;
+    background-color: royalblue;
+}
+
+.debug .banner_img {
+    height: 200px;
+    background-color: orange;
+}
+
+.debug .download {
+    height: 100px;
+    background-color: fuchsia;
+}
+
+.debug #site_footer {
+    background-color: red;
+    height: 300px;
+}
+
+.debug .row {
+    height: 200px;
+}
+
+.debug .row2 {
+    height: 100px;
+}
+
+.debug .social {
+    height: 200px;
+    background-color: yellow;
+}
+
+.debug .col {
+    height: 200px;
+    background-color: violet;
+}
+
+.debug .logo2 {
+    height: 100px;
+    background-color: turquoise;
+}
+
+.debug .registrati {
+    height: 100px;
+    background-color: turquoise;
+}
+
+/* header */
+
+.nav {
+    margin: auto;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.link {
+    width: 60%;
+    float: left;
+}
+
+.accedi {
+    width: 20%;
+    float: left;
+}
+
+/* main */
+
+.main_title_desccription {
+    margin: auto;
+}
+
+/* promo */
+
+.promo {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.promo_img {
+    height: 100%;
+    width: 65%;
+}
+
+.promo_text {
+    width: 35%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* banner */
+
+.banner {
+    margin-top: 2rem;
+}
+
+.banner_text {}
+
+.banner_img {}
+
+/* footer */
+
+.social {
+    width: 33%;
+    float: left;
+}
+
+.col {
+    float: left;
+    width: 16.75%;
+}
+
+.logo2 {
+    float: left;
+    width: 20%;
+}
+
+.registrati {
+    float: right;
+    width: 20%;
+}
